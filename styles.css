@@ -1,0 +1,100 @@
+/*Red = #FFB4B0  
+Blue = #4DD7FA  
+Light yellow = #FEFAC0  
+Dark yellow = #785616*/
+
+/*  class .  */
+/*  id #  */
+
+
+/*whole page container*/
+#main-container { 
+  font-family: sans-serif;
+ }
+
+
+/*nav bar container*/
+
+.navbar { 
+  background-color: #FFB4B0;
+  width: 80%;
+ }
+
+.navbar ul { 
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid black;
+ }
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a { 
+  display: block;
+  color: #1E1E1E;
+  padding: 20px 20px;
+ }
+
+
+
+/*blue left side container*/
+ .options {
+  background-color: #4DD7FA;
+  width: 20%;
+  float: left;
+  border: 2px solid black;
+  padding: 15px;
+  padding-top: 20px;
+  height: 365px;
+  /*margin: 8px;*/
+ }
+
+
+/*styling for dropdown menus*/
+
+.song-length {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.artist { 
+  padding: 10px;
+ }
+
+.album { 
+  padding: 10px;
+  /*margin: 20px;*/
+ }
+
+select { 
+  width: 70%;
+  padding: 10px;
+ }
+
+.genre {
+  column-count: 2;
+  padding: 10px;
+}
+
+.button { 
+padding: 15px;
+font-size: 12px;
+}
+
+
+
+/*yellow right side container*/
+ #songs {
+  background-color: #FEFAC0;
+  width: 50%;
+  float: right;
+  border: 2px solid black;
+  padding: 20px;
+  margin-right: 20%;
+
+ }
+
+
+

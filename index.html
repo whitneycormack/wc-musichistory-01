@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music History - Part 1</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <div id="main-container">
+        
+    <div class="navbar">
+      <ul>
+        <li><a href="#">View Music</a></li>
+        <li><a href="#">Add Music</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </div>
+
+
+    <div class="options">
+
+      <!-- song length range slider -->
+      <div class="song-length">
+        <form>Song Length:
+          <input type="range" name="Song Length" min="0" max="10">
+        </form>
+      </div>
+
+        <!-- artist select dropdown menu -->
+      <div class="artist">
+        <label for="artist">Artist:</label><br>
+          <select class="artist" name="Artist">
+            <option value="Borns">Borns</option>
+            <option value="Britney Spears">Britney Spears</option>
+            <option value="Shelters">Shelters</option>
+            <option value="Kings of Leon">Kings of Leon</option>
+          </select>
+        <br>
+      </div>
+
+        <!-- album select dropdown menu -->
+      <div class="album">
+        <label for="album">Album:</label><br>
+          <select class="album" name="Album">
+            <option value="Dopamine">Dopamine</option>
+            <option value="Make Me">Make Me</option>
+            <option value="Rebel Heart">Rebel Heart</option>
+            <option value="Walls">Walls</option>
+          </select>
+      </div>  
+
+        <!-- genre checkboxes -->
+      <div class="genre">
+        <form>Genre:<br>
+            <input type="checkbox" name="Rock" value="Rock">Rock<br>
+            <input type="checkbox" name="Pop" value="Pop">Pop<br>
+            <input type="checkbox" name="Blues" value="Blues">Blues<br>
+            <input type="checkbox" name="Classical" value="Classical">Classical<br>
+            <input type="checkbox" name="Jazz" value="Jazz">Jazz<br>
+            <input type="checkbox" name="Hip Hop" value="Hip Hop">Hip Hop<br>
+        </form>
+      </div>
+
+      <!-- filter button -->
+      <input class="button" type="button" value="Filter">
+    </div>
+
+
+    <!-- yellow song section -->
+    <div id="songs">
+        <h2>Past Lives</h2>
+        <p>Borns | Dopamine | Alternative</p>
+
+        <h2>Make Me</h2>
+        <p>Britney Spears | Make Me | Pop</p>
+
+        <h2>Rebel Heart</h2>
+        <p>Shelters | Rebel Heart | Rock</p>
+
+        <h2>Waste A Moment</h2>
+        <p>Kings of Leon | Walls | Alternative</p>
+      </div>
+
+  </div>
+</body>
+</html>
+
+
+
+
+
+
