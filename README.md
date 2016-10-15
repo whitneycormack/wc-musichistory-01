@@ -2,7 +2,7 @@
 
 You will be building the basic structure of your Music History application in HTML and making it look good with the skills you learned in CSS.
 
-Visit the Music History mockup <https://moqups.com/chortlehoort/1E8LJX7r/> that I created. You will be recreating that document in your own HTML file.
+Visit the Music History [mockup](https://moqups.com/chortlehoort/1E8LJX7r/) that I created. You will be recreating that document in your own HTML file.
 
 ##Criteria
 
